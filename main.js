@@ -66,7 +66,7 @@ const annotations = [
   },
   {
     label: 'Gabinete Sur',
-    description: 'Sensor de temperatura ambiental.',
+    description: 'Gabinete principal que contiene los elementos críticos del sistema.',
     position: new THREE.Vector3(-2, 0.8, 1)
   }
 ];
