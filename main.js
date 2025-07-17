@@ -141,4 +141,13 @@ function animate() {
   renderer.render(scene, camera);
 }
 
+
 animate();
+
+// función encargada de la redirección
+function redireccion() {
+    window.location = "https://192.168.30.252:4443/#%2FEnterprise%20Server%2FBMS%2FProyectos%2FFord%2FSubestaci%C3%B3n%2FEnerg%C3%ADa";
+}
+
+// se llamará a la función que redirecciona después de 10 minutos (600.000 segundos)
+var temp = setTimeout(redireccion, 6000);
